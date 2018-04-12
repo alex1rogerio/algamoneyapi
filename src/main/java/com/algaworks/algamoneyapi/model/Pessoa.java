@@ -30,12 +30,9 @@ public class Pessoa {
 	private Long codigo;
 	
 	@NotNull
-	@Size(min=3 , max=50)
-	@Column(name="nome")
 	private String nome;
 	
 	@NotNull
-	@Column(name="ativo")
 	private Boolean ativo;
 
 	@Embedded
